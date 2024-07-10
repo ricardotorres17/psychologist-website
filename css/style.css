@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
@@ -35,8 +35,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -56,7 +56,7 @@ body {
   height: 5px;
   /*background-color: #ff2953;*/
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 /*header section*/
@@ -67,10 +67,10 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   /*background-image: url(../images/hero-bg.jpg);*/
-  background-color: #c45cdcc4;
+  background-color: #e8e2d0;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -96,19 +96,20 @@ body {
   margin: 0 auto;
 }
 
-.header_section{
-  background-color: #2522338c;
+.header_section {
+  background-color: #f8f6f1;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 0;
   padding-bottom: 3px;
-  color: #ffffff;
+  color: dimgray;
   text-align: center;
   position: relative;
   text-transform: uppercase;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link::after {
@@ -123,9 +124,10 @@ body {
   background-color: #ffffff;
 }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after,
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
   display: block;
-  background-color: #ff2953;
+  background-color: dimgray;
 }
 
 a,
@@ -143,7 +145,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .user_option {
@@ -151,8 +153,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .user_option a {
@@ -176,8 +178,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
 }
 
@@ -207,15 +209,15 @@ a:focus {
 /*end header section*/
 .slider_section {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #ffffff;
+  -ms-flex-align: center;
+  align-items: center;
+  color: dimgray;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -224,8 +226,8 @@ a:focus {
 
 .slider_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section .box {
@@ -250,7 +252,7 @@ a:focus {
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
   font-weight: bold;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 
 .slider_section .detail-box p {
@@ -282,8 +284,8 @@ a:focus {
   margin: 0;
   margin-top: 45px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section #carouselExampleIndicators .carousel-indicators li {
@@ -300,11 +302,11 @@ a:focus {
 }
 
 .us_section {
-  /*background-image: url(../images/us-bg.jpg);*/
-  background-color: #c45cdc99;
+  /*background-image: url(../images/computador_consulta.jpg);*/
+  background-color: #f8f6f1;
   background-size: cover;
   background-attachment: fixed;
-  color: #ffffff;
+  color: dimgray;
 }
 
 .us_section .us_container {
@@ -317,11 +319,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   margin: 25px 10px 0 10px;
 }
@@ -332,11 +334,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .us_section .us_container .box .img-box img {
@@ -349,11 +351,13 @@ a:focus {
 
 .heathy_section {
   /*background-image: url(../images/healthy-bg.jpg);*/
-  background-color: #c45cdcc4;
+  background-color: #e8e2d0;
   background-size: cover;
   background-attachment: fixed;
-  color: #ffffff;
+  color: dimgray;
   text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .heathy_section h2 {
@@ -369,8 +373,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
@@ -407,11 +411,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -434,8 +438,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 225px;
   padding: 12px 45px;
   background-color: #ffffff;
@@ -445,27 +449,27 @@ a:focus {
 
 .contact_section {
   position: relative;
-  background-color: #c45cdc99;
-  color: #ffffff;
+  background-color: #f8f6f1;
+  color: dimgray;
 }
 
 .contact_section .heading_container {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 .contact_section .heading_container h2::before {
   text-align: left;
   left: 0;
   -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 
 .contact_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact_section .img-box img {
@@ -511,13 +515,13 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #ff2953;
+  background: dimgray;
   margin: 45px 0 0 auto;
   text-transform: uppercase;
 }
 
 .info_section {
-  background-color: #c45cdcc4;
+  background-color: #e8e2d0;
 }
 
 .info_items {
@@ -527,8 +531,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .info_items .item {
@@ -538,11 +542,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -556,7 +560,7 @@ a:focus {
 
 .info_items .item .detail-box {
   margin-top: 5px;
-  color: #fff;
+  color: dimgray;
 }
 
 .info_items {
