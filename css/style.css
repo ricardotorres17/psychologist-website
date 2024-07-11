@@ -98,6 +98,11 @@ body {
 
 .header_section {
   background-color: #f8f6f1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
@@ -368,6 +373,10 @@ a:focus {
   margin-top: 35px;
 }
 
+.us_section p {
+  margin-top: 35px;
+}
+
 .heathy_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,6 +460,7 @@ a:focus {
   position: relative;
   background-color: #f8f6f1;
   color: dimgray;
+  height: 869px;
 }
 
 .contact_section .heading_container {
