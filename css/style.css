@@ -460,7 +460,6 @@ a:focus {
   position: relative;
   background-color: #f8f6f1;
   color: dimgray;
-  height: 869px;
 }
 
 .contact_section .heading_container {
@@ -474,12 +473,6 @@ a:focus {
   left: 0;
   -webkit-transform: none;
   transform: none;
-}
-
-.contact_section .row {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .contact_section .img-box img {
