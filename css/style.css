@@ -479,7 +479,9 @@ a:focus {
   width: 100%;
 }
 
-.contact_section .form_container {
+.contact_section .form_container,
+.heathy_section .form_container,
+.us_section .form_container {
   padding: 45px 0 45px 15px;
 }
 
@@ -590,6 +592,10 @@ a:focus {
   background-image: url(../images/email.png);
 }
 
+.info_items .item .img-box.box-5 {
+  background-image: url(../images/linkedin.svg);
+}
+
 /* footer section*/
 .footer_section {
   background-color: #fbfdfd;
@@ -607,5 +613,9 @@ a:focus {
   color: #292929;
 }
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 767px) {
+  #catarina {
+    margin: auto;
+    display: block;
+  }
+}
