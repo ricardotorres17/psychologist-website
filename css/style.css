@@ -556,7 +556,7 @@ a:focus {
 
 .info_items .item .img-box {
   width: 80px;
-  height: 40px;
+  height: 50px;
   border-radius: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -582,6 +582,12 @@ a:focus {
 
 .info_items .item .img-box.box-4 {
   background-image: url(../images/instagram.png);
+}
+
+.info_items .item .img-box.box-6 {
+  background-image: url(../images/ers-logo.png);
+  width: 85px;
+  border-radius: 0;
 }
 
 .info_items .item .img-box.box-2 {
